@@ -1,11 +1,4 @@
-﻿/* ==========================================================================
-   PORTFOLIO WEBSITE - AKHMAD DANIL (DATA ANALYST)
-   Desain Sederhana, Dasar & Rapi | Font: Poppins
-   ========================================================================== */
-
-/* --------------------------------------------------------------------------
-   1. RESET & DASAR
-   -------------------------------------------------------------------------- */
+﻿
 * {
   margin: 0;
   padding: 0;
@@ -30,42 +23,34 @@ a {
   padding: 0 20px;
 }
 
-/* --------------------------------------------------------------------------
-   2. ATURAN GAMBAR OFFLINE (Ganti file di folder: img/)
-   -------------------------------------------------------------------------- */
 
-/* 2.1 Foto Profil Hero */
 .foto-profil {
   width: 100%;
   height: 100%;
   background-color: #cbd5e1;
-  background-image: url("img/profil.png"); /* File foto profil offline */
+  background-image: url("profil.png"); 
   background-size: cover;
   background-position: center;
   border-radius: 8px;
 }
 
-/* 2.2 Gambar Project 1 - 6 */
 .project-img-1 {
-  background-image: url("img/project1.png");
+  background-image: url("project1.png");
 }
 .project-img-2 {
-  background-image: url("img/project2.png");
+  background-image: url("project2.png");
 }
 .project-img-3 {
-  background-image: url("img/project3.png");
+  background-image: url("project3.png");
 }
 
 .project-img-5 {
-  background-image: url("img/project5.png");
+  background-image: url("project5.png");
 }
 .project-img-6 {
-  background-image: url("img/project6.png");
+  background-image: url("project6.png");
 }
 
-/* --------------------------------------------------------------------------
-   3. HEADER & NAVIGASI
-   -------------------------------------------------------------------------- */
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #e2e8f0;
@@ -103,9 +88,7 @@ a {
   color: #1e3a8a;
 }
 
-/* --------------------------------------------------------------------------
-   4. HERO SECTION (INTRODUCTION)
-   -------------------------------------------------------------------------- */
+
 .hero-section {
   padding: 60px 0;
   background-color: #f8fafc;
@@ -200,9 +183,7 @@ a {
   background-color: #eff6ff;
 }
 
-/* --------------------------------------------------------------------------
-   5. SEKSI UMUM & CARD
-   -------------------------------------------------------------------------- */
+
 .section {
   padding: 60px 0;
 }
@@ -234,9 +215,7 @@ a {
   padding: 24px;
 }
 
-/* --------------------------------------------------------------------------
-   6. SKILL SECTION
-   -------------------------------------------------------------------------- */
+
 .skill-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -273,9 +252,6 @@ a {
   left: 0;
 }
 
-/* --------------------------------------------------------------------------
-   7. PENGALAMAN SECTION
-   -------------------------------------------------------------------------- */
 .exp-list {
   display: flex;
   flex-direction: column;
@@ -337,9 +313,7 @@ a {
   left: 0;
 }
 
-/* --------------------------------------------------------------------------
-   8. PROJECT SECTION
-   -------------------------------------------------------------------------- */
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -389,9 +363,7 @@ a {
   line-height: 1.6;
 }
 
-/* --------------------------------------------------------------------------
-   9. KONTAK SECTION
-   -------------------------------------------------------------------------- */
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -462,9 +434,6 @@ a {
   border-color: #1e3a8a;
 }
 
-/* --------------------------------------------------------------------------
-   10. FOOTER
-   -------------------------------------------------------------------------- */
 .footer {
   background-color: #0f172a;
   color: #94a3b8;
@@ -473,9 +442,6 @@ a {
   font-size: 0.85rem;
 }
 
-/* --------------------------------------------------------------------------
-   11. RESPONSIF MOBILE
-   -------------------------------------------------------------------------- */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
